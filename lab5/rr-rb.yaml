@@ -10,4 +10,4 @@ subject:
 roleRef:
   kind: Role
   name: rr-role
-  apiGroups:rbac.authorization.k8s.io
+  apiGroups: rbac.authorization.k8s.io

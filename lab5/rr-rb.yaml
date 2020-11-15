@@ -3,7 +3,7 @@ kind: RoleBinding
 metadata:
   namespace: default
   name: rr-rb
-subject:
+subjects:
 - kind: ServiceAccount
   name: rr-sa
   apiGroup: ""

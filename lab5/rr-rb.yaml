@@ -6,7 +6,7 @@ metadata:
 subject:
 - kind: ServiceAccount
   name: rr-sa
-  apiGroups: ""
+  apiGroup: ""
 roleRef:
   kind: Role
   name: rr-role

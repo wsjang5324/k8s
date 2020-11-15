@@ -1,11 +1,11 @@
 apiVersion: v1​
 kind: Pod​
-metadata:​
+metadata:
   name: tk-pod​
   namespace: ns1​
-  labels:​
+  labels:
      app: pod​
-spec:​
-  containers:​
+spec:
+  containers:
   - name: container​
     image: nginx

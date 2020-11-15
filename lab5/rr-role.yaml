@@ -1,9 +1,9 @@
 kind: Role​
 apiVersion: rbac.authorization.k8s.io/v1​
-metadata:​
+metadata:
   namespace: default​
   name: rr-role​
-rules:​
+rules:
 - apiGroups: ["", "apps"]​
   resources: ["pods"]​
   verbs: ["get", "list", "edit"]
